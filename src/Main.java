@@ -26,36 +26,36 @@ public class Main {
         }
         // задание 3
         System.out.println("задание 3");
-        int one = 4;
-        int two = -5;
+        int one = 101;
+        int two = 101;
         int three = 101;
         if (one > two) {
             if (one >= three) {
                 System.out.println("Максимальное число" + one);
-            }else if (three > one) {
-                    System.out.println("Максимальное число" + three);
-                } else {
-                    System.out.println("Числа" + one + " и " + three +" равны");
-                }
-                if (two>three) {
+            } else {
+                System.out.println("Максимальное число" + three);
+
+            }
+        }else if (two > one) {
+                if (two >= three) {
                     System.out.println("Максимальное число" + two);
-                }else if (three > two) {
-                        System.out.println("Максимальное число" + three);
-                    } else {
-                        System.out.println("Числа" + two+" и " + three+"равны");
-                    }
-                }else {
-                    if(one>three) {
-                        System.out.println("Максимальное число" + one);
-                    }else if(three>one){
+                } else {
+                    System.out.println("Максимальное число" + three);
+                }
+            }else{
+                            }
+
+              if(one > three) {
+                  System.out.println("Максимальное число" + one);
+              } else if(three>one){
                             System.out.println("Максимальное число" + three);
                         } else {
-                            System.out.println("Числа равны");
+                            System.out.println("Все 3 числа равны");
                         }
                     }
                 }
 
-            }
+
 
 
 
